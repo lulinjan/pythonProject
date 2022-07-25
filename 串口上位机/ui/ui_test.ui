@@ -62,7 +62,7 @@
           </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QComboBox" name="comboBox_com"/>
+          <widget class="QComboBox" name="comboBox_uart"/>
          </item>
          <item row="1" column="0">
           <widget class="QLabel" name="label_2">
@@ -388,27 +388,27 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QTextEdit" name="textEdit">
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>254</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>250</height>
+         <widget class="QTextEdit" name="textEdit_get">
+             <property name="minimumSize">
+                 <size>
+                     <width>0</width>
+                     <height>254</height>
+                 </size>
+             </property>
+             <property name="maximumSize">
+                 <size>
+                     <width>16777215</width>
+                     <height>250</height>
         </size>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>发送</string>
-       </property>
-      </widget>
+         <widget class="QPushButton" name="pushButton_sinp">
+             <property name="text">
+                 <string>发送</string>
+             </property>
+         </widget>
      </item>
     </layout>
    </widget>
@@ -486,7 +486,6 @@
    <addaction name="menu_6"/>
    <addaction name="menu_FTP"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
    <property name="windowTitle">
     <string>toolBar</string>
@@ -506,6 +505,7 @@
    <addaction name="action_clear"/>
    <addaction name="separator"/>
   </widget>
+     <widget class="QStatusBar" name="statusBar"/>
   <action name="action_start">
    <property name="icon">
     <iconset>
