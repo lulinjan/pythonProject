@@ -193,6 +193,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusBar)
         self.action_start = QtWidgets.QAction(MainWindow)
         icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("../images/Player Play.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         icon.addPixmap(QtGui.QPixmap("../images/Player Play.png"), QtGui.QIcon.Normal, QtGui.QIcon.On)
         self.action_start.setIcon(icon)
         self.action_start.setObjectName("action_start")

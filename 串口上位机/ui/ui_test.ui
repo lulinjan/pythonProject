@@ -399,17 +399,17 @@
                  <size>
                      <width>16777215</width>
                      <height>250</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item>
-         <widget class="QPushButton" name="pushButton_sinp">
-             <property name="text">
-                 <string>发送</string>
+                 </size>
              </property>
          </widget>
      </item>
+        <item>
+            <widget class="QPushButton" name="pushButton_sinp">
+                <property name="text">
+                    <string>发送</string>
+                </property>
+            </widget>
+        </item>
     </layout>
    </widget>
    <widget class="QTextBrowser" name="textBrowser">
@@ -508,9 +508,10 @@
      <widget class="QStatusBar" name="statusBar"/>
   <action name="action_start">
    <property name="icon">
-    <iconset>
-     <normalon>../images/Player Play.png</normalon>
-    </iconset>
+       <iconset>
+           <normaloff>../images/Player Play.png</normaloff>
+           <normalon>../images/Player Play.png</normalon>../images/Player Play.png
+       </iconset>
    </property>
    <property name="text">
     <string>开始</string>
