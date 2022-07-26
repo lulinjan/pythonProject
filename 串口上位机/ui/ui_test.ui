@@ -388,28 +388,28 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-         <widget class="QTextEdit" name="textEdit_get">
-             <property name="minimumSize">
-                 <size>
-                     <width>0</width>
-                     <height>254</height>
-                 </size>
-             </property>
-             <property name="maximumSize">
-                 <size>
-                     <width>16777215</width>
-                     <height>250</height>
-                 </size>
-             </property>
-         </widget>
+      <widget class="QTextEdit" name="textEdit_get">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>254</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>250</height>
+        </size>
+       </property>
+      </widget>
      </item>
-        <item>
-            <widget class="QPushButton" name="pushButton_sinp">
-                <property name="text">
-                    <string>发送</string>
-                </property>
-            </widget>
-        </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_sinp">
+       <property name="text">
+        <string>发送</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
    <widget class="QTextBrowser" name="textBrowser">
@@ -486,17 +486,17 @@
    <addaction name="menu_6"/>
    <addaction name="menu_FTP"/>
   </widget>
-     <widget class="QToolBar" name="RWL">
-         <property name="windowTitle">
-             <string>toolBar</string>
-         </property>
-         <attribute name="toolBarArea">
-             <enum>TopToolBarArea</enum>
-         </attribute>
-         <attribute name="toolBarBreak">
-             <bool>false</bool>
-         </attribute>
-         <addaction name="action_start"/>
+  <widget class="QToolBar" name="RWL">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_start"/>
    <addaction name="separator"/>
    <addaction name="action_pause"/>
    <addaction name="separator"/>
@@ -505,22 +505,23 @@
    <addaction name="action_clear"/>
    <addaction name="separator"/>
   </widget>
-     <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QStatusBar" name="statusBar"/>
   <action name="action_start">
-      <property name="icon">
-          <iconset>
-              <normalon>../images/Player Play.png</normalon>
-          </iconset>
-      </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/Player Play.png</normaloff>
+     <normalon>../images/Player Play.png</normalon>images/Player Play.png
+    </iconset>
+   </property>
    <property name="text">
     <string>开始</string>
    </property>
   </action>
   <action name="action_pause">
    <property name="icon">
-       <iconset>
-           <normaloff>../images/Player Pause.png</normaloff>../images/Player Pause.png
-       </iconset>
+    <iconset>
+     <normaloff>images/Player Pause.png</normaloff>images/Player Pause.png
+    </iconset>
    </property>
    <property name="text">
     <string>暂停</string>
@@ -528,27 +529,25 @@
   </action>
   <action name="action_stop">
    <property name="icon">
-       <iconset>
-           <normaloff>../images/Player Stop.png</normaloff>../images/Player Stop.png
-       </iconset>
+    <iconset>
+     <normaloff>images/Player Stop.png</normaloff>images/Player Stop.png
+    </iconset>
    </property>
    <property name="text">
     <string>停止</string>
    </property>
   </action>
-     <action name="action_clear">
-         <property name="icon">
-             <iconset>
-                 <normaloff>../images/Broom.png</normaloff>../images/Broom.png
-             </iconset>
-         </property>
-         <property name="text">
-             <string>清除</string>
-         </property>
-     </action>
+  <action name="action_clear">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/Broom.png</normaloff>images/Broom.png
+    </iconset>
+   </property>
+   <property name="text">
+    <string>清除</string>
+   </property>
+  </action>
  </widget>
-    <resources>
-        <include location="../images/images.qrc"/>
-    </resources>
-    <connections/>
+ <resources/>
+ <connections/>
 </ui>
