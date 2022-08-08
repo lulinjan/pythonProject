@@ -22,7 +22,7 @@ import os.path
 class QRC_PY():
     def __init__(self):
         # UI文件所在的路径
-        self.dir = 'images/'
+        self.dir = 'ui/images/'
 
     # 列出目录下的所有qrc文件
     def listUiFile(self):
@@ -53,7 +53,7 @@ class QRC_PY():
 class UI_PY():
     def __init__(self):
         # UI文件所在的路径
-        self.dir = 'images/'
+        self.dir = 'ui/images/'
 
     # 列出目录下的所有ui文件
     def listUiFile(self):
