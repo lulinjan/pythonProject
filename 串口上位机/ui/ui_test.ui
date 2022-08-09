@@ -32,16 +32,16 @@
                      <x>1</x>
                      <y>1</y>
                      <width>171</width>
-      <height>521</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout" stretch="2,2,1">
-     <property name="spacing">
-      <number>8</number>
-     </property>
-     <property name="leftMargin">
-      <number>2</number>
-     </property>
+                     <height>521</height>
+                 </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout" stretch="2,2,1">
+                 <property name="spacing">
+                     <number>8</number>
+                 </property>
+                 <property name="leftMargin">
+                     <number>2</number>
+                 </property>
      <property name="rightMargin">
       <number>5</number>
      </property>
@@ -299,39 +299,39 @@
           <number>10</number>
          </property>
          <item row="0" column="0">
-          <widget class="QRadioButton" name="radioButton">
-           <property name="text">
-            <string>ASCII</string>
-           </property>
-          </widget>
+             <widget class="QRadioButton" name="radioButton_R_ascii">
+                 <property name="text">
+                     <string>ASCII</string>
+                 </property>
+             </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QRadioButton" name="radioButton_2">
-           <property name="text">
-            <string>Hex</string>
-           </property>
-          </widget>
+             <widget class="QRadioButton" name="radioButton_R_hex">
+                 <property name="text">
+                     <string>Hex</string>
+                 </property>
+             </widget>
          </item>
          <item row="1" column="0">
-          <widget class="QCheckBox" name="checkBox">
-           <property name="text">
-            <string>自动化</string>
-           </property>
-          </widget>
+             <widget class="QCheckBox" name="checkBox_zdhh">
+                 <property name="text">
+                     <string>自动换行</string>
+                 </property>
+             </widget>
          </item>
          <item row="2" column="0">
-          <widget class="QCheckBox" name="checkBox_2">
-           <property name="text">
-            <string>显示发送</string>
-           </property>
-          </widget>
+             <widget class="QCheckBox" name="checkBox_xsfs">
+                 <property name="text">
+                     <string>显示发送</string>
+                 </property>
+             </widget>
          </item>
          <item row="3" column="0">
-          <widget class="QCheckBox" name="checkBox_3">
-           <property name="text">
-            <string>显示时间</string>
-           </property>
-          </widget>
+             <widget class="QCheckBox" name="checkBox_xssj">
+                 <property name="text">
+                     <string>显示时间</string>
+                 </property>
+             </widget>
          </item>
         </layout>
        </widget>
@@ -342,52 +342,74 @@
        <property name="title">
         <string>发送设置</string>
        </property>
-       <widget class="QWidget" name="layoutWidget">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>17</y>
-          <width>141</width>
-          <height>81</height>
-         </rect>
-        </property>
-        <layout class="QFormLayout" name="formLayout_3">
-         <item row="0" column="0">
-          <widget class="QRadioButton" name="radioButton_3">
-           <property name="text">
-            <string>ASCII</string>
-           </property>
+          <widget class="QRadioButton" name="radioButton_T_ascii">
+              <property name="geometry">
+                  <rect>
+                      <x>11</x>
+                      <y>18</y>
+                      <width>53</width>
+                      <height>16</height>
+                  </rect>
+              </property>
+              <property name="text">
+                  <string>ASCII</string>
+              </property>
           </widget>
-         </item>
-         <item row="3" column="1">
-          <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
-         </item>
-         <item row="0" column="1">
-          <widget class="QRadioButton" name="radioButton_4">
-           <property name="text">
-            <string>Hex</string>
-           </property>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox">
+              <property name="geometry">
+                  <rect>
+                      <x>10</x>
+                      <y>70</y>
+                      <width>71</width>
+                      <height>20</height>
+                  </rect>
+              </property>
+              <property name="decimals">
+                  <number>0</number>
+              </property>
           </widget>
-         </item>
-         <item row="3" column="0">
+          <widget class="QRadioButton" name="radioButton_T_hex">
+              <property name="geometry">
+                  <rect>
+                      <x>88</x>
+                      <y>18</y>
+                      <width>41</width>
+                      <height>16</height>
+                  </rect>
+              </property>
+              <property name="text">
+                  <string>Hex</string>
+              </property>
+          </widget>
           <widget class="QLabel" name="label_7">
-           <property name="text">
-            <string>  时间</string>
-           </property>
+              <property name="geometry">
+                  <rect>
+                      <x>100</x>
+                      <y>70</y>
+                      <width>51</width>
+                      <height>16</height>
+                  </rect>
+              </property>
+              <property name="text">
+                  <string>ms/次</string>
+              </property>
           </widget>
-         </item>
-         <item row="1" column="0">
-          <widget class="QCheckBox" name="checkBox_4">
-           <property name="text">
-            <string>重复发送</string>
-           </property>
+          <widget class="QCheckBox" name="checkBox_cffs">
+              <property name="geometry">
+                  <rect>
+                      <x>11</x>
+                      <y>40</y>
+                      <width>71</width>
+                      <height>16</height>
+                  </rect>
+              </property>
+              <property name="text">
+                  <string>重复发送</string>
+              </property>
           </widget>
-         </item>
-        </layout>
-       </widget>
       </widget>
      </item>
-    </layout>
+             </layout>
          </widget>
          <widget class="QTextBrowser" name="textBrowser">
              <property name="geometry">
@@ -434,7 +456,7 @@
                  <string>发送</string>
              </property>
          </widget>
-  </widget>
+     </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
@@ -508,14 +530,14 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="action_start"/>
-   <addaction name="separator"/>
-   <addaction name="action_pause"/>
-   <addaction name="separator"/>
-   <addaction name="action_stop"/>
-   <addaction name="separator"/>
-   <addaction name="action_clear"/>
-   <addaction name="separator"/>
+      <addaction name="action_start"/>
+      <addaction name="separator"/>
+      <addaction name="action_pause"/>
+      <addaction name="separator"/>
+      <addaction name="action_stop"/>
+      <addaction name="separator"/>
+      <addaction name="action_clear"/>
+      <addaction name="separator"/>
   </widget>
      <widget class="QStatusBar" name="ztl"/>
      <action name="action_start">
