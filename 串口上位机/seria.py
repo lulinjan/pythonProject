@@ -28,6 +28,6 @@ class Uart(object):
 
 
 if __name__ == '__main__':
-    myuart = Uart("com3", 9600)
+    myuart = Uart("com2", 9600)
     if (0 == myuart.err):
         print("打开串口")
